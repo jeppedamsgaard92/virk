@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    display: grid;
+    grid-template-rows: 2rem 4rem 1fr 8fr;
+}
+
+.lang-selector {
+    grid-row: 1;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+
+.lang-container {
+    margin-right: 1rem;
+    background-color: yellow;
+}
+
+.lang {
+    color: black;
+}
+
+nav {
+    padding: 1rem;
+    display: flex;
+    grid-row: 2;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    height: 1rem;
+    width: 1rem;
+    background-color: black;
+}
+
+.burger {
+    height: 1rem;
+    width: 1rem;
+    background-color: black;
+}
+
+main {
+    grid-row: 3;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: red;
+    gap: 1rem;
+
+}
+
+section {
+
+}
+
+.banner-container {
+    width: 100%;
+    height: 30rem;
+    display: flex;
+}
+
+.banner-img {
+    object-fit: cover;
+    width: 100%;
+    /*height: 100%;*/
+    align-items: start;
+    overflow: hidden;
+}
+
+.top-tekst {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tilmeld {
+    display: flex;
+    padding: 1rem;
+    background-color: beige;
+}
+.blanket-container {
+    padding: 0 1rem 0 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blanket {
+    height: 20rem;
+    width: 15rem;
+    background-color: grey;
+}
+
+.p-body {
+    padding: 0 0 1rem 0;
+}
+
+h2, h1 {
+    padding-bottom: 1.2rem;
+}
+
+.tekst-venstre {
+
+}
+
+.tekst-center {
+    
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tekst-center p {
+    max-width: 40rem;
+}
+
+.knap {
+    background-color: blueviolet;
+    padding: 1rem;
+}
+
+
